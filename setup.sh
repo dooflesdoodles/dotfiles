@@ -7,7 +7,6 @@ RCFILES=(
   "inputrc"
   "npmrc"
   "screenrc"
-  "shellrc_physics"
   "zprofile"
   "zshrc"
 )

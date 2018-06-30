@@ -2,3 +2,6 @@ if [ ! $(uname -s) = "Darwin" ]; then
   alias pbcopy="xsel --clipboard --input"
   alias pbpaste="xsel --clipboard --output"
 fi
+
+alias python=python3
+alias pip=pip3

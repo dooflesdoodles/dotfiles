@@ -91,15 +91,8 @@ fi
 # =================================================================================
 
 zstyle ':completion:*' special-dirs true
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 autoload bashcompinit
 bashcompinit
-# export WORKON_HOME=~/.envs
-# source /usr/local/bin/virtualenvwrapper.sh
-
-if [ -f ~/.shellrc_physics ]; then
-    . ~/.shellrc_physics
-fi
 
 if [ -f ~/.aliases ]; then
     . ~/.aliases
