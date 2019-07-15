@@ -1,7 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
 	name = Niklas Görtz
-	email = goertz-niklas@t-online.de
+	email = goertz-niklas@posteo.net
 [merge]
 	tool = opendiff
 [core]
